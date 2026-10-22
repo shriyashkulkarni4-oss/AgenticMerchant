@@ -1,10 +1,10 @@
-# 🛒 AgenticBuy
+# 🛒 AgenticMerchant
 
-**AgenticBuy** is a 3-sided AI-powered e-commerce platform that connects merchants, consumers, and intelligent agents to create a next-generation shopping experience.
+**AgenticMerchant** is a 3-sided AI-powered e-commerce platform that connects merchants, consumers, and intelligent agents to create a next-generation shopping experience.
 
 ## Overview
 
-AgenticBuy brings together three distinct interfaces:
+AgenticMerchant brings together three distinct interfaces:
 
 | Side | Description |
 |------|-------------|
@@ -36,8 +36,8 @@ AgenticBuy brings together three distinct interfaces:
 ### 1. Clone & configure
 
 ```bash
-git clone https://github.com/your-org/agenticbuy.git
-cd agenticbuy
+git clone https://github.com/your-org/AgenticMerchant.git
+cd AgenticMerchant
 cp .env.example .env
 # Edit .env if you need to change any defaults
 ```
@@ -69,7 +69,7 @@ curl http://localhost:8080/health
 ## Project Structure
 
 ```
-agenticbuy/
+AgenticMerchant/
 ├── backend/
 │   ├── app/
 │   │   ├── main.py              # FastAPI application entry point
